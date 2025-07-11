@@ -284,3 +284,34 @@ footer ul li a{
     text-decoration: none;
     color: rgba(137, 135, 161, 1);
 }
+
+.extras{
+    background-color: white;
+    border-radius: 14px;
+    padding: 71px 150px;
+    margin-bottom: 163.5px;
+}
+.extra-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+}
+.extra-subtitle{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.button-box{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.extra-img{
+    border-radius: 48px;
+}
