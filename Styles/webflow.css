@@ -12,6 +12,7 @@
   font-style: normal;
 }
 
+
 .header{
     background-image: url('../Assets/Hero-bg.png'); background-repeat: no-repeat;
     background-size: cover; 
@@ -43,6 +44,7 @@ nav{
     /* margin: 208px 267.5px 152px 267.5px; */
     margin: 208px auto 152px;
     text-align: center;
+    
 }
 .banner-text{
     font-weight: bold;
@@ -60,6 +62,7 @@ main{
     align-items: center;
     justify-content: space-between;
     margin: 116px auto;
+    
 }
 .action-content{
     max-width: 517px;
@@ -86,6 +89,7 @@ main{
     background-color: rgba(78, 71, 255, 0.1);
     padding: 50px 150px;
     border-radius: 24px;
+    margin-bottom: 137px;
 }
 
 .productive-user-title{
@@ -115,4 +119,38 @@ main{
 .stat-subtitle{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+}
+.get-in-touch-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-fill input[type="text"], .form-fill input[type="email"], .form-fill textarea{
+    height: 70px;
+    width: 497px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    padding: 20px 32px;
+    margin-bottom: 19px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.section-title{
+    font-size: 97px;
+    color: #000000;
+
+}
+
+label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+   
+}
+
+.btn-full{
+    width: 100%;
+    padding: 10px 101px;
 }
