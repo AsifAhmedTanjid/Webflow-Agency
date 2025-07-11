@@ -124,6 +124,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 79px;
 }
 .form-fill input[type="text"], .form-fill input[type="email"], .form-fill textarea{
     height: 70px;
@@ -154,4 +155,38 @@ label{
 .btn-full{
     width: 100%;
     padding: 10px 101px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    margin: 104px auto;
+    max-width: 531px;
+}
+.footer-title{
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: 900;
+    padding: 0px 120px 8px 120px ;
+    margin-bottom: 0;
+
+}
+
+.footer-description{
+    margin-top: 0;
+    color: rgba(137, 135, 161, 1);
+    margin-bottom: 20px;
+}
+footer ul{
+
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
 }
