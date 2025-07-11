@@ -250,6 +250,13 @@ footer{
     background-color: white;
     padding: 104px 455px;
 }
+.footer-box{
+    /* text-align: center; */
+    margin: 104px auto;
+    max-width: 531px;
+    background-color: white;
+    /* padding: 104px 455px; */
+}
 .footer-title{
     font-size: 100px;
     color: #4E47FF;
