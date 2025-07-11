@@ -37,6 +37,14 @@ nav{
     font-weight: bold;
     color: white;
 }
+.btn-primary:hover{
+  font-size: 20px;
+  background-color: transparent;
+  color: #333;
+  border: 2px solid #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
 
 
 .banner{
