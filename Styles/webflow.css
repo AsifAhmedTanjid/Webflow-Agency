@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 .header{
     background-image: url('../Assets/Hero-bg.png'); background-repeat: no-repeat;
     background-size: cover; 
@@ -73,4 +80,39 @@ main{
     height: 328px;
     width: 403px;
     border-radius: 48px;
+}
+
+.productive-user{
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 150px;
+    border-radius: 24px;
+}
+
+.productive-user-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    margin-bottom: 40px;
+
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 158px; */
+    
+}
+
+.stat-data{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0;
+    
+}
+
+.stat-subtitle{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
