@@ -252,7 +252,7 @@ footer{
 }
 .footer-box{
     /* text-align: center; */
-    margin: 104px auto;
+    margin: 104px auto 0;
     max-width: 531px;
     background-color: white;
     /* padding: 104px 455px; */
